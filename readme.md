@@ -7,8 +7,12 @@ We made this sample wallet for you. Pure PHP code, no framework or any advanced 
 A basic wallet using Paystack payment gateway to accept funds.
 
 ## Installation
-Please, check the config file and enter your database settings.
 
+### Step 1
+Create a new database and run the [table.sql](https://github.com/abegpay/simple-paystack-wallet/blob/main/table.sql) to create the required tables.
+
+### Step 2
+Please, check the [config.php](https://github.com/abegpay/simple-paystack-wallet/blob/main/config.php) and enter your database settings.
 ```
 /** MySQL database name */
 define( 'DB_NAME', 'wallets' );
@@ -20,8 +24,8 @@ define( 'DB_USER', 'wallet_db' );
 define( 'DB_PASSWORD', '*****' );
 ```
 
-Then paste your SECRET KEY which is available on your Paystack dashboard.
-
+### Step 3
+Paste your SECRET KEY which is available on your Paystack dashboard.
 ```
 /** Paystack Secret */
 define( 'PAYSTACK_SECRET', 'Paste Your Paystack Secret Key' );
@@ -55,7 +59,7 @@ https://example.com
 If you find this Repo helpful, kindly give it a star.
 
 ## Update
-We have recieve few complaints on how Paystack is not working on some servers. Please make sure your server has open SSL enabled. Also upgrading to PHP 7.3 upward. 
+We have recieve few complaints on how Paystack is not working on some servers. Please make sure your server has open SSL enabled. Also try upgrading to PHP 7.3 upward. 
 
 You can open an issue or contact us on Twitter.
 
