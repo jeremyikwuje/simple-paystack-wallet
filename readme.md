@@ -38,6 +38,8 @@ When a transaction is successful, Paystack redirect the user back to the wallet.
 define( 'BASE', 'demo.abegpay.com/wallet' );
 ```
 
+Run the code to see how it work.
+
 ### Setting BASE URL for different servers
 
 XAMPP server, your Base URL should look like this: 
