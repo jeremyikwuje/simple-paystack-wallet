@@ -1,6 +1,6 @@
 # Simple Wallet with Paystack
 
-You have read the Paystack documentation, even this (https://dev.to/ijsucceed/how-to-integrate-paystack-payment-system-with-php-5a8m)[awesome tutorial], but still don't know how to bring them together.
+You have read the Paystack documentation, even this [awesome tutorial](https://dev.to/ijsucceed/how-to-integrate-paystack-payment-system-with-php-5a8m), but still don't know how to bring them together.
 
 We made this sample wallet for you. Pure PHP code, no framework or any advanced scaffolding.
 
@@ -34,7 +34,7 @@ When a transaction is successful, Paystack redirect the user back to the wallet.
 define( 'BASE', 'demo.abegpay.com/wallet' );
 ```
 
-### Example of Base URL based on server
+### Setting BASE URL for different servers
 
 XAMPP server, your Base URL should look like this: 
 ```
@@ -53,6 +53,11 @@ https://example.com
 
 ## Credit
 If you find this Repo helpful, kindly give it a star.
+
+## Update
+We have recieve few complaints on how Paystack is not working on some servers. Please make sure your server has open SSL enabled. Also upgrading to PHP 7.3 upward. 
+
+You can open an issue or contact us on Twitter.
 
 Be happy!
 
