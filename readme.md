@@ -20,14 +20,14 @@ define( 'DB_USER', 'wallet_db' );
 define( 'DB_PASSWORD', '*****' );
 ```
 
-You then paste your SECRET KEY which can be found on your Paystack dashboard.
+Then paste your SECRET KEY which is available on your Paystack dashboard.
 
 ```
 /** Paystack Secret */
 define( 'PAYSTACK_SECRET', 'Paste Your Paystack Secret Key' );
 ```
 
-When a transaction is successful, Paystack redirect the user back to the wallet. So you need to set the base URL. So Paystack don't take the user to a wrong callback address.
+When a transaction is successful, Paystack redirect the user back to the wallet. You will need to set the base URL, so Paystack don't take the user to a wrong callback address.
 
 ```
 /** The Wallet BASE URL */
@@ -42,8 +42,9 @@ http://localhost/wallet
 ```
 
 PHP in built server:
-
-http://localhost:8000  ( depending on the port you choose to use )
+```
+http://localhost:3001
+```
 
 Live Server:
 ```
